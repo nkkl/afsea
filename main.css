@@ -1,0 +1,101 @@
+/*
+	AWESOME SEATTLE main site
+	all content and code belongs to Awesome Seattle
+*/
+
+/* CSS RESET */
+* {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	font-style: normal;
+}
+
+a {
+	text-decoration: none;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-style: bold;
+}
+
+/* BASE CSS */
+/* TODO: fix link colors */
+a {
+	color: green;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: black;
+}
+
+div {
+	margin: 1em 2em;
+}
+
+#header p {
+	font-size: 2em;
+}
+
+#description {
+	text-align: center;
+}
+
+#description h2, #description p {
+	text-align: left;
+}
+
+#projects h3 {
+	margin-top: 1em;
+}
+
+/* TODO: fix button color */
+a.button {
+	display: inline-block;
+	text-align: center;
+	margin: 1em auto auto auto;
+	padding: 1em;
+
+	color: white;
+	background-color: green;
+}
+
+a:hover.button, a:active.button {
+	background-color: green;
+}
+
+#connect {
+	text-align: center;
+}
+
+#connect * {
+	text-align: left;
+}
+
+#connect ul {
+	margin-top: 1em;
+	display: inline-block;
+	list-style-type: none;
+}
+
+/* TODO: add link icons */
+a.twitter {
+	padding-left: 20px;
+	background-color: gray;
+}
+
+a.facebook {
+	padding-left: 20px;
+	background-color: gray;	
+}
+
+a.email {
+	padding-left: 20px;
+	background-color: gray;
+
+}
