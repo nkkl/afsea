@@ -64,7 +64,7 @@ a.button {
 	display: inline-block;
 	text-align: center;
 	margin: 1em auto auto auto;
-	padding: 1em;
+	padding: .75em 1.25em;
 	font-size: 150%;
 
 	color: white;
@@ -122,7 +122,7 @@ div {
 }
 
 #projects {
-	background-color: #E4E4E4;
+	background-color: rgb(250,250,250);
 }
 
 #projects .inset {
@@ -152,7 +152,7 @@ div {
 /* MOBILE VERSION */
 @media (max-width: 767px) {
 	#header {}
-	
+
 	#description {		
 		background-image: url("img/onnof_small.jpg");
 		background-position: center;
@@ -211,8 +211,13 @@ div {
 		box-shadow: 0 0 10px rgb(40,40,40);
 	}
 
-	#header {
-		font-size: 20pt;
+	#header {}
+
+	#header p {
+		font-size: 40pt;
+		background-image: url("img/aflogo.png");
+		background-repeat: no-repeat;
+		background-position: center;
 	}
 
 	#description {
