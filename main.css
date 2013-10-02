@@ -133,6 +133,11 @@ div {
 	margin-top: 1em;
 }
 
+#projects ul {
+	font-size: 14pt;
+	margin: 1em 4em;
+}
+
 #connect {
 	text-align: center;
 	background-image: url("img/asfalt.png");
