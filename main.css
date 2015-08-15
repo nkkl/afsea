@@ -149,6 +149,66 @@ div {
 	list-style-type: none;
 }
 
+/* MAILCHIMP SIGNUP FORM */
+#mc_embed_signup {
+	display: inline-block;
+	margin: auto;
+	padding: 0;
+}
+
+#mc_embed_signup_scroll {
+	margin: 0;
+	display: inline-block;
+}
+
+.indicates-required {
+	margin: 0;
+	padding: 0;
+}
+
+.asterisk {
+	color: rgb(0,200,0);
+	font-weight: bold;
+}
+
+.mc-field-group {
+	margin: .5em auto;
+	padding: 0;
+}
+
+.mc-field-group label {
+	color: rgb(200,200,200);
+}
+
+.mc-field-group input {
+	width: 30em;
+	max-width: 100%;
+	font-size: 12pt;
+	padding: .5em;
+	border: none;
+	border-radius: .25em;
+}
+
+.clear {
+	margin: 0;
+	padding: 0;
+}
+
+.clear input {
+	background-color: rgb(0,180,0);
+	border: none;
+	outline: none;
+	margin: .5em auto;
+	padding: .5em 1.5em;
+	font-size: 16pt;
+	color: white;
+}
+
+.clear input:hover {
+	cursor: pointer;
+	background-color: rgb(0,200,0);
+}
+
 /* MOBILE VERSION */
 @media (max-width: 767px) {
 	#header {}
@@ -174,6 +234,10 @@ div {
 	}
 
 	#connect {}
+
+	.mc-field-group input {
+		width: 20em;
+	}
 }
 
 /* TABLET VERSION */
